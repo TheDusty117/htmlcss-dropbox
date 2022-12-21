@@ -11,6 +11,7 @@ img {
 }
 
 ul,
+li,
 ol,
 menu {
 	list-style: none;
@@ -134,7 +135,7 @@ body{
 
 .list-version{
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   font-size: 14px;
   font-weight: 400px;
   border-bottom: 2px solid grey;
@@ -189,4 +190,29 @@ h5{
 .fa-side{
   /* position: absolute; */
   left: -20px;
+}
+
+/* SECONDO CONTAINER PER SPAZIARE ULTIMO
+ELEMENTO PACCHETTO LARGO ENTERPRISE*/
+
+.container-2-top-space{
+  padding-top: 60px;
+}
+
+.plans-100{
+  padding-top: 5px;
+  border: 2px solid grey;
+}
+
+/******* PACCHETTO LARGE ENTERPRISE *******/
+
+.team-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 30px 40px 30px;
+}
+
+.solutions{
+  padding-top: 40px;
 }
