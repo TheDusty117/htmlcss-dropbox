@@ -43,16 +43,24 @@ body{
 .row{
   display: flex;
   justify-content: space-between;
-  padding: 28px;
+  align-items: center;
+  padding: 25px 0;
 }
 
 .nav-list{
   display: flex;
- 
+  align-items: center;
 }
 
 .nav-item{
   padding: 0px 20px;
 }
 
-.blu-button{}
+.blu-button{
+  color: white;
+  background-color: blue;
+  padding: 10px 15px;
+}
+
+
+/***************** HERO ******************/
