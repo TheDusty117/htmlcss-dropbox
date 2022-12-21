@@ -64,7 +64,7 @@ body{
 .blu-button{
   color: white;
   background-color: #0061FF;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 
 
@@ -132,6 +132,14 @@ body{
   justify-content: space-between;
 }
 
+.list-version{
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 400px;
+  border-bottom: 2px solid grey;
+}
+
 .plans-30{
   flex-basis: 30%;
   border: 2px solid grey;
@@ -140,5 +148,45 @@ body{
 
 .plans-list{
   justify-content: center;
-  padding: 20px;
+  padding: 20px 30px 40px 30px;
+}
+
+.plans-items{
+  padding-top: 20px;
+}
+
+.month{
+  padding-bottom: 40px;
+}
+
+.list-title{
+  font-size: 25px;
+}
+
+.center-button{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.blu-button-large{
+  color: white;
+  background-color: #0061FF;
+  padding: 10px 45px;
+}
+
+#under-price{
+  color: grey;
+}
+
+h5{
+  font-size: 14px;
+}
+
+/* li{
+  position: relative;
+} */
+
+.fa-side{
+  /* position: absolute; */
+  left: -20px;
 }
