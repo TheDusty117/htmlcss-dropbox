@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  
 }
+
 
 img {
 	max-width: 100%;
@@ -18,9 +20,39 @@ button,
 input {
 	border: none;
 	background-color: transparent;
+  font-size: 14px;
 }
 
 a {
 	text-decoration: none;
 	color: currentColor;
 }
+
+body{
+  background-color: lightgrey;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/***************** HEADER *****************/
+
+.container{
+  height: 85px;
+  background-color: white;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 28px;
+}
+
+.nav-list{
+  display: flex;
+ 
+}
+
+.nav-item{
+  padding: 0px 20px;
+}
+
+.blu-button{}
