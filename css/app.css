@@ -100,7 +100,6 @@ body{
 .hero{
   background-color: #B4D0E7;
   max-height: 780px;
-  position: relative;
 }
 
 .container-l{
@@ -143,8 +142,8 @@ body{
 
 
 .fa-arrow-down{
+  padding-top: 60px;
   font-size: 50px;
-  position: absolute;
   bottom: 20px;
 }
 
@@ -259,6 +258,7 @@ ELEMENTO PACCHETTO LARGO ENTERPRISE*/
 
 .partner-section{
   padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .col-60{
@@ -287,4 +287,31 @@ li > .partner-description{
 
 .partner-button{
   padding-top: 35px;
+}
+
+
+/**************** BUSINESS FEATURE SECTION **************/
+
+.row-feature{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature-title{
+  font-size: 45px;
+}
+
+.feature-subtitle{
+  font-size: 25px;
+}
+
+.feature-description{
+  padding-top: 40px;
+}
+
+/* STILE DEL LINK */
+
+.link-classic{
+  color: blue;
+  text-decoration: underline;
 }
