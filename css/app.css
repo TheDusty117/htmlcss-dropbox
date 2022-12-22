@@ -351,30 +351,79 @@ li > .partner-description{
   min-height: 666,66px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 
 .row-left, .row-center, .row-right{
-  width: 650px;
-  height: 650px;
+  width: 666px;
+  height: 666px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .col-company{
-  background-color: red;
-  width: 325px;
-  height: 325px;
-  border: 2px solid black;
-  padding: ;
+  /* background-color: red; */
+  width: 333px;
+  height: 333px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 80px;
 }
 
 .col-it-leader{
   background-color: aquamarine;
-  width: 650px;
-  width: 650px;
+  width: 666px;
+  width: 666px;
+  padding: 50px;
+}
+
+.designit-small{
+  width: 280px;
+}
+
+
+/* BACKGROUND COLOR COMPANIES */
+
+
+
+
+.col-designit{
+  background-color: #A2D39B;
+}
+
+.col-arizona{
+  background-color: #61082B;
+}
+
+.col-florida{
+  background-color: #0093CE;
+}
+
+.col-topps{
+  background-color: #FF1C1C;
+}
+
+
+
+.col-it-leader{
+  background-color: #F5F5F5;
+}
+
+
+.col-world_bycicle{
+  background-color: #D5001F;
+}
+
+.col-harst{
+  background-color: #B4D0E7;
+}
+
+.col-lonely_planet{
+  background-color: #0D2481;
+}
+
+.col-clear_channel{
+  background-color: #FFD830;
 }
