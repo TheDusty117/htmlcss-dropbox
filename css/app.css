@@ -296,6 +296,10 @@ li > .partner-description{
 
 /**************** BUSINESS FEATURE SECTION **************/
 
+.business-feature-section{
+  padding-bottom: 150px;
+}
+
 .row-feature{
   flex-wrap: wrap;
   justify-content: space-between;
@@ -314,7 +318,9 @@ li > .partner-description{
   font-size: 18px;
 }
 
-
+.col-30-3{
+  padding-top: 60px;
+}
 
 /* STILE DEL LINK */
 
@@ -323,3 +329,42 @@ li > .partner-description{
   text-decoration: underline;
 }
 
+.col-100-4{
+  padding-top: 200px;
+}
+
+.link-clients{
+  padding-top: 70px;
+}
+
+
+
+/**************** COMPANIES SECTION (BIG IMAGES) ********/
+
+.companies-section{
+  min-height: 500px;
+  border: 2px solid black;
+}
+
+.container-3{
+  min-width: 2000px;
+  min-height: 666,66px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.row-left, .row-center, .row-right{
+  width: 650px;
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-company{
+  background-color: red;
+  width: 325px;
+  height: 325px;
+  border: 2px solid black;
+}
