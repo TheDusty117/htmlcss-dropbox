@@ -367,6 +367,10 @@ li > .partner-description{
   width: 325px;
   height: 325px;
   border: 2px solid black;
+  padding: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .col-it-leader{
