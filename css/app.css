@@ -499,3 +499,24 @@ li > .partner-description{
 
 
 /*********************** FOOTER *********************/
+
+.row-infobox{
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+.info-title{
+  font-size: 24px;
+}
+
+li a{
+  font-size: 18px;
+}
