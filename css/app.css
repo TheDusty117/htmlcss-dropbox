@@ -349,7 +349,7 @@ li > .partner-description{
 /**************** COMPANIES SECTION (BIG IMAGES) ********/
 
 .companies-section{
-  min-height: 2000px;
+  min-height: 800px;
   border: 2px solid black;
 }
 
@@ -470,3 +470,28 @@ li > .partner-description{
 
 
 /************* SEZIONE DOMANDE FREQUENTI ***************/
+
+.faq-section{
+  padding: 170px 0px;
+}
+
+.col-faq{
+  width: 1040px;
+}
+
+.faq-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+  border-bottom: 2px solid grey;
+}
+
+.faq-title{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.faq-subtitle{
+  font-size: 18px;
+  font-weight: bold;
+}
