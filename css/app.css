@@ -35,6 +35,10 @@ body{
   font-size: 14px;
 }
 
+.description{
+  font-size: 20px;
+}
+
 /***************** HEADER/NAV *****************/
 
 .container-header{
@@ -307,7 +311,10 @@ li > .partner-description{
 
 .feature-description{
   padding-top: 40px;
+  font-size: 18px;
 }
+
+
 
 /* STILE DEL LINK */
 
@@ -315,3 +322,4 @@ li > .partner-description{
   color: blue;
   text-decoration: underline;
 }
+
