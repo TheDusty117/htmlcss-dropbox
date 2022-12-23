@@ -30,7 +30,7 @@ a {
 }
 
 body{
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
 }
@@ -101,16 +101,15 @@ body{
 
 
 
+
 /************* HERO SECTION***************/
 
-.debug{
-  border: 2px solid black;
-  min-height: 50px;
-}
+
+
 
 .hero{
   background-color: #B4D0E7;
-  max-height: 780px;
+  max-height: 775px;
 }
 
 .container-l{
@@ -159,6 +158,35 @@ body{
 }
 
 /**************** PLANS SECTION **********/
+
+
+.plans-items{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+
+
+#oppure{
+  padding-bottom: 40px;
+  border-bottom: 2px solid lightgray;
+  font-size: 18px;
+}
+
+.col-100-radio{
+  padding-top: 140px;
+}
+
+.plans-list .plans-items:nth-child(2){
+  padding-top: 40px;
+}
+
+/* .radio-plans{
+  padding-top: 40px;
+} */
+
+
 .col-30{
   flex-basis: 30%;
 }
@@ -200,8 +228,7 @@ body{
 }
 
 .plans-list{
-  justify-content: center;
-  padding: 20px 30px 40px 30px;
+      padding: 20px 30px 40px 30px;
 }
 
 .plans-items{
@@ -215,6 +242,7 @@ body{
 .list-title{
   font-size: 25px;
 }
+
 
 
 
@@ -350,7 +378,6 @@ li > .partner-description{
 
 .companies-section{
   min-height: 800px;
-  border: 2px solid black;
 }
 
 .container-3{
@@ -485,10 +512,12 @@ li > .partner-description{
 
 .faq-item{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 235px;
   padding: 50px 0px;
   border-bottom: 2px solid grey;
 }
+
 
 .faq-title{
   font-size: 40px;
