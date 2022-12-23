@@ -167,6 +167,11 @@ body{
 }
 
 
+.fa-check{
+  color: #0061FF;
+  font-weight: bolder;
+}
+
 
 #oppure{
   padding-bottom: 40px;
