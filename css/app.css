@@ -396,10 +396,14 @@ li > .partner-description{
 /* BACKGROUND COLOR COMPANIES */
 
 
-
+.white-logo{
+  filter: invert();
+}
 
 .col-designit{
   background-color: #A2D39B;
+  border: 15px solid #D1E9CD;
+  padding: 65px;
 }
 
 .col-arizona{
